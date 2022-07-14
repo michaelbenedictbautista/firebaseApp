@@ -1,8 +1,11 @@
 import { Text, View, StyleSheet} from 'react-native'
-export function HomeScreen( props ) {
+
+// import { ListItem } from '../components/ListItem'
+
+export function HomeScreen( navigation ) {
   return (
     <View>
-      <Text>Home Screen</Text>
+      <Text>Welcome to Home Screen</Text>
     </View>
   )
 }
