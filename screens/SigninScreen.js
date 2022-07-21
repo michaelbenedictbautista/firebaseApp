@@ -1,12 +1,13 @@
-import { Text, View, StyleSheet, TouchableOpacity} from 'react-native'
+import { Text, View, StyleSheet, TouchableOpacity, Button} from 'react-native'
 
 export function SigninScreen( {navigation} ) {
   return (
     <View style={styles.signinView}>
       <Text>Welcome to Sign in page</Text>
       <TouchableOpacity onPress={ () => navigation.navigate('Signup')}>
-        <Text>Go to Sign up</Text>
+        <Text>Go to back Sign up</Text>
     </TouchableOpacity>
+    {/* <Button title="Go back" onPress={() => navigation.goBack()} /> */}
     </View>
   )
 }

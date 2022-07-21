@@ -4,7 +4,7 @@ import { Text, View, StyleSheet} from 'react-native'
 
 export function HomeScreen( navigation ) {
   return (
-    <View>
+    <View style={styles.homeView}>
       <Text>Welcome to Home Screen</Text>
     </View>
   )
